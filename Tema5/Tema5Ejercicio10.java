@@ -10,10 +10,10 @@ public class Tema5Ejercicio10 {
 		double media;
 		
 		do {
-			System.out.println("Introduce un valor (negativo para terminar");
+			System.out.println("Introduce un valor (negativo para terminar)");
 			valor = Integer.parseInt(System.console().readLine());
 			if (valor > 0) {
-				acumulador += valor;
+				acumulador +=valor;
 				conteo++;
 				
 			}
