@@ -17,18 +17,14 @@ public class EjercicioExtra3 {
 		System.out.println("Introduzca el salto");
 		int salto = Integer.parseInt(System.console().readLine());
 		
+		System.out.println();
 		
 		while (vueltas != 0)
 		{
-			System.out.println(primerNumero);
+			System.out.print(primerNumero + " ");
 			vueltas--;
-			primerNumero = primerNumero + salto;
+			primerNumero = primerNumero + salto;		
 			
-			
-			
-		}
-		
-			
-		
+		}	
 	}
 }
