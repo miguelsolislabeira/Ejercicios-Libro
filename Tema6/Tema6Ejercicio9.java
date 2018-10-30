@@ -16,7 +16,7 @@ public class Tema6Ejercicio9{
 				cuenta++;
 		}
 		
-				System.out.print("La cuenta: " + cuenta);
+				System.out.print("Se han generado " + cuenta + " números");
 		
 	}
 }
